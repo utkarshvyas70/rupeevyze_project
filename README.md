@@ -86,9 +86,6 @@ finance-landing/
 **Why structured this way**
 Heading first, proof second, action third. user needs to understand what the product does before being asked to do anything. dashboard card on the right shows the product visually instead of just describing it.
  
-**What was prioritized first**
-Clarity of the value proposition. if someone lands and cant figure out what it does in 3 seconds they leave. mobile layout was handled right after with a single CSS grid column swap, no JS needed.
- 
 ---
  
 ## Author
