@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Get Started – FinWise</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- NAV -->
+  <nav class="navbar">
+    <a href="index.html" class="logo">Fin<span>Wise</span></a>
+    <div class="nav-links">
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="howitworks.html" class="nav-link">How it works</a>
+      <a href="apply.html" class="nav-link nav-cta active">Get Started</a>
+    </div>
+  </nav>
+
+
+  <!-- APPLY HERO -->
+  <section class="page-hero">
+    <p class="eyebrow">
+      <span class="eyebrow-line"></span>
+      Start for free
+    </p>
+    <h1 class="heading">Create your account</h1>
+    <p class="subhead">Takes under 2 minutes. No credit card needed.</p>
+  </section>
+
+
+  <!-- FORM -->
+  <section class="form-section">
+    <div class="form-card">
+
+      <div class="form-group">
+        <label for="name">Full name</label>
+        <input type="text" id="name" placeholder="Full Name" />
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email address</label>
+        <input type="email" id="email" placeholder="email" />
+      </div>
+
+      <div class="form-group">
+        <label for="phone">Phone number</label>
+        <input type="tel" id="phone" placeholder="Phone number" />
+      </div>
+
+      <div class="form-group">
+        <label for="goal">Primary financial goal</label>
+        <select id="goal">
+          <option value="" disabled selected>Select a goal</option>
+          <option>Save for retirement</option>
+          <option>Build an emergency fund</option>
+          <option>Invest in mutual funds</option>
+          <option>Buy a home</option>
+          <option>Pay off debt</option>
+          <option>Grow my wealth</option>
+        </select>
+      </div>
+
+      <button class="btn-primary form-submit" id="submitBtn">
+        Create free account
+      </button>
+
+      <p class="form-note">
+        By signing up you agree to our
+        <a href="#">Terms</a> and <a href="#">Privacy Policy</a>.
+      </p>
+
+    </div>
+
+    <!-- success message (hidden until form submit) -->
+    <div class="success-box" id="successBox">
+      <div class="success-icon">✓</div>
+      <h2>You're in!</h2>
+      <p>We'll reach out to you within 24 hours to get you set up.</p>
+      <a href="index.html" class="btn-primary" style="margin-top:1.5rem; display:inline-block;">
+        Back to home
+      </a>
+    </div>
+
+  </section>
+
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-logo">Fin<span>Wise</span></div>
+    <p class="footer-text">© 2026 FinWise. All rights reserved.</p>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="howitworks.html">How it works</a>
+      <a href="apply.html">Get Started</a>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast"></div>
+  <script src="script.js"></script>
+</body>
+</html>
